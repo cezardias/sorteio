@@ -1,0 +1,32 @@
+node_modules
+dist
+dist-ssr
+*.local
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Project Specific Exclusions
+api/vendor/
+api/storage/
+vendor/
+node_modules/
+backup/
+legacy_frontend_backup/
+discovery.php
+where_am_i.php
+THIS_IS_THE_LIVE_SITE.txt
+health.txt
+
+# Security
+.env*
+api/.env*
+public/.env*
+bash_history
+! .env.example
