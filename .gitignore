@@ -1,0 +1,9 @@
+node_modules
+node_module*.sw?
+
+# Security
+.env*
+api/.env*
+public/.env*
+bash_history
+! .env.example
